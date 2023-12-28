@@ -1,0 +1,5 @@
+name: 'Weather Info'
+type: module
+description: 'Fetching Weather info from OpenWeatherMap API'
+package: Custom
+core_version_requirement: ^10

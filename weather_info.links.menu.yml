@@ -1,0 +1,5 @@
+weather_info.settings:
+  title: Weather info settings
+  parent: system.admin_config_system
+  route_name: weather_info.settings
+  weight: 10

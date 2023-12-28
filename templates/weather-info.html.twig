@@ -1,0 +1,18 @@
+{% if data.error %}
+  <div class="error">
+    {{ data.error }}
+  </div>
+{% else %}
+  <div class="weather">
+    <b>Weather</b>
+    <div>
+      {{ data.weather.0.main }} - {{ data.weather.0.description }}
+    </div>
+    <div>
+      Tempreture: {{ data.main.temp }}&deg;C
+    </div>
+    <div>
+      Humidity: {{ data.main.humidity }}%
+    </div>
+  </div>
+{% endif %}

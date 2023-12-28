@@ -1,0 +1,4 @@
+services:
+  weather_info.service:
+    class: Drupal\weather_info\WeatherInfoService
+    arguments: ['@config.factory', '@http_client', '@cache.data']

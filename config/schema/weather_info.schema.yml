@@ -1,0 +1,16 @@
+# Schema for the configuration files of the Weather info module.
+weather_info.settings:
+  type: config_object
+  label: 'Weather info settings'
+  mapping:
+    api_key:
+      type: string
+      label: 'Openweathermap API key'
+
+block.settings.weather_info_block:
+  type: block_settings
+  label: 'Weather info block'
+  mapping:
+    city:
+      type: string
+      label: City

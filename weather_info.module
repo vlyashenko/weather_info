@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Weather Info module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function weather_info_theme() {
+  return [
+    'weather_info' => [
+      'variables' => [
+        'data' => NULL,
+      ],
+    ],
+  ];
+}
